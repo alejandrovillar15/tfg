@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/agregar_cliente"
+        android:orderInCategory="100"
+        android:title="Nuevo cliente"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/agregar_pedido"
+        android:title="Nuevo pedido"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/agregar_producto"
+        android:title="Nuevo producto"
+        app:showAsAction="never" />
+</menu>
